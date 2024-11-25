@@ -1,0 +1,10 @@
+Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+/fsh-generated/resources/ImplementationGuide-hl7.fhir.be.patient-monitoring.json	4913	-	0	0	0	0	0	0	7	293	0	0	0	0	0	0	0	1	0	0	144	149	0	0	1	4	0	1
+fsh-generated/resources/Observation-AbdominalPainExample.json	1220	19	0	0	0	1	0	0	0	601	0	0	0	0	0	0	0	0	0	0	35	51	0	0	0	0	0	0
+fsh-generated/resources/Observation-BloodPressureExample.json	2357	12	1	0	0	0	0	0	0	129	0	0	0	0	0	0	0	0	0	0	43	55	0	0	0	0	0	0
+fsh-generated/resources/Observation-BodyTemperatureExample.json	1952	11	0	0	0	0	0	0	1	85	0	0	0	0	0	0	0	0	0	0	32	44	0	0	0	0	0	0
+fsh-generated/resources/Observation-BodyWeightExample.json	1938	12	0	0	0	0	0	0	0	75	0	0	0	0	0	0	0	0	0	0	32	43	0	0	0	0	0	0
+fsh-generated/resources/Observation-HeartRateExample.json	1940	20	0	0	0	0	0	0	0	77	0	0	0	0	0	0	0	0	0	0	35	36	0	0	0	0	0	0
+fsh-generated/resources/Observation-OxygenSaturationExample.json	2007	18	0	0	0	0	0	0	0	77	0	0	0	0	0	0	0	0	0	0	32	30	0	0	0	0	0	0
+fsh-generated/resources/Observation-RespiratoryRateExample.json	2023	17	0	0	0	0	0	0	1	4	0	0	0	0	0	0	0	0	0	0	33	32	0	0	0	0	0	0
+fsh-generated/resources/Observation-ShortnessOfBreathExample.json	1179	18	0	0	0	0	0	0	0	109	0	0	0	0	0	0	0	0	0	0	29	23	0	0	0	0	0	0
