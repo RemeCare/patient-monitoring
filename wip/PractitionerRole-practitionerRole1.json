@@ -1,0 +1,17 @@
+{
+  "resourceType" : "PractitionerRole",
+  "id" : "practitionerRole1",
+  "meta" : {
+    "profile" : ["https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-practitionerrole"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: PractitionerRole practitionerRole1</b></p><a name=\"practitionerRole1\"> </a><a name=\"hcpractitionerRole1\"> </a><a name=\"practitionerRole1-en-US\"> </a><p><b>code</b>: <span title=\"Codes:{https://www.ehealth.fgov.be/standards/fhir/core/CodeSystem/cd-hcparty persnurse}\">nurse</span></p></div>"
+  },
+  "code" : [{
+    "coding" : [{
+      "system" : "https://www.ehealth.fgov.be/standards/fhir/core/CodeSystem/cd-hcparty",
+      "code" : "persnurse"
+    }]
+  }]
+}
