@@ -1,0 +1,29 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7belgium.org/fhir/patient-monitoring/PractitionerRole/practitionerRole1> a fhir:PractitionerRole ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "practitionerRole1"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-practitionerrole"^^xsd:anyURI ;
+       fhir:link <https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-practitionerrole>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: PractitionerRole practitionerRole1</b></p><a name=\"practitionerRole1\"> </a><a name=\"hcpractitionerRole1\"> </a><a name=\"practitionerRole1-en-US\"> </a><p><b>code</b>: <span title=\"Codes:{https://www.ehealth.fgov.be/standards/fhir/core/CodeSystem/cd-hcparty persnurse}\">nurse</span></p></div>"
+  ] ; # 
+  fhir:code ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://www.ehealth.fgov.be/standards/fhir/core/CodeSystem/cd-hcparty"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "persnurse" ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PractitionerRole xmlns="http://hl7.org/fhir">
+  <id value="nurse"/>
+  <meta>
+    <profile value="https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-practitionerrole"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: PractitionerRole nurse</b></p><a name="nurse"> </a><a name="hcnurse"> </a><a name="nurse-en-US"> </a><p><b>code</b>: <span title="Codes:{https://www.ehealth.fgov.be/standards/fhir/core/CodeSystem/cd-hcparty persnurse}">nurse</span></p></div>
+  </text>
+  <code>
+    <coding>
+      <system value="https://www.ehealth.fgov.be/standards/fhir/core/CodeSystem/cd-hcparty"/>
+      <code value="persnurse"/>
+    </coding>
+  </code>
+</PractitionerRole>

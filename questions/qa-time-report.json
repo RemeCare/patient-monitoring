@@ -1,0 +1,634 @@
+{
+  "date" : "Fri, 10 Jan, 2025 09:46:13 +0000",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "/fsh-generated/resources/ImplementationGuide-hl7.fhir.be.patient-monitoring.json",
+      "size" : 7809,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 45,
+          "length" : 23
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 45,
+          "length" : 6
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 45,
+          "length" : 221
+        },
+        {
+          "activity" : "validate",
+          "start" : 47,
+          "length" : 1472
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 48,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 52,
+          "length" : 95
+        },
+        {
+          "activity" : "generate2",
+          "start" : 55,
+          "length" : 142
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 66,
+          "length" : 5
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 69,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Observation-AbdominalPainExample.json",
+      "size" : 1254,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 44,
+          "length" : 21
+        },
+        {
+          "activity" : "loadInfo",
+          "start" : 45,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 45,
+          "length" : 788
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 48,
+          "length" : 3
+        },
+        {
+          "activity" : "validate",
+          "start" : 48,
+          "length" : 219
+        },
+        {
+          "activity" : "generate1",
+          "start" : 52,
+          "length" : 17
+        },
+        {
+          "activity" : "generate2",
+          "start" : 55,
+          "length" : 26
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Observation-BloodPressureExample.json",
+      "size" : 2349,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 44,
+          "length" : 11
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 45,
+          "length" : 1
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 45,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 46,
+          "length" : 94
+        },
+        {
+          "activity" : "validate",
+          "start" : 48,
+          "length" : 630
+        },
+        {
+          "activity" : "generate1",
+          "start" : 52,
+          "length" : 14
+        },
+        {
+          "activity" : "generate2",
+          "start" : 55,
+          "length" : 32
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Observation-BodyTemperatureExample.json",
+      "size" : 1700,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 44,
+          "length" : 10
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 46,
+          "length" : 86
+        },
+        {
+          "activity" : "validate",
+          "start" : 49,
+          "length" : 352
+        },
+        {
+          "activity" : "generate1",
+          "start" : 52,
+          "length" : 10
+        },
+        {
+          "activity" : "generate2",
+          "start" : 55,
+          "length" : 18
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Observation-BodyWeightExample.json",
+      "size" : 1692,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 44,
+          "length" : 10
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 46,
+          "length" : 84
+        },
+        {
+          "activity" : "validate",
+          "start" : 49,
+          "length" : 340
+        },
+        {
+          "activity" : "generate1",
+          "start" : 52,
+          "length" : 11
+        },
+        {
+          "activity" : "generate2",
+          "start" : 55,
+          "length" : 18
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 69,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Observation-DistendedAbdomenExample.json",
+      "size" : 1258,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 44,
+          "length" : 10
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 46,
+          "length" : 3
+        },
+        {
+          "activity" : "validate",
+          "start" : 50,
+          "length" : 88
+        },
+        {
+          "activity" : "generate1",
+          "start" : 52,
+          "length" : 8
+        },
+        {
+          "activity" : "generate2",
+          "start" : 55,
+          "length" : 15
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Observation-HeartRateExample.json",
+      "size" : 1690,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 44,
+          "length" : 11
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 46,
+          "length" : 83
+        },
+        {
+          "activity" : "validate",
+          "start" : 50,
+          "length" : 266
+        },
+        {
+          "activity" : "generate1",
+          "start" : 52,
+          "length" : 10
+        },
+        {
+          "activity" : "generate2",
+          "start" : 55,
+          "length" : 17
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Observation-LevelOfResponsivenessExample.json",
+      "size" : 1207,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 44,
+          "length" : 7
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 46,
+          "length" : 78
+        },
+        {
+          "activity" : "validate",
+          "start" : 50,
+          "length" : 171
+        },
+        {
+          "activity" : "generate1",
+          "start" : 52,
+          "length" : 9
+        },
+        {
+          "activity" : "generate2",
+          "start" : 55,
+          "length" : 15
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Observation-NationalEarlyWarningScoreExample.json",
+      "size" : 1129,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 44,
+          "length" : 5
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 45,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 46,
+          "length" : 3
+        },
+        {
+          "activity" : "validate",
+          "start" : 50,
+          "length" : 91
+        },
+        {
+          "activity" : "generate1",
+          "start" : 52,
+          "length" : 8
+        },
+        {
+          "activity" : "generate2",
+          "start" : 55,
+          "length" : 15
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Observation-OxygenSaturationExample.json",
+      "size" : 1875,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 44,
+          "length" : 4
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 46,
+          "length" : 86
+        },
+        {
+          "activity" : "validate",
+          "start" : 50,
+          "length" : 424
+        },
+        {
+          "activity" : "generate1",
+          "start" : 52,
+          "length" : 10
+        },
+        {
+          "activity" : "generate2",
+          "start" : 55,
+          "length" : 18
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Observation-PainDuringUrinationExample.json",
+      "size" : 875,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 44,
+          "length" : 4
+        },
+        {
+          "activity" : "load",
+          "start" : 45,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 46,
+          "length" : 84
+        },
+        {
+          "activity" : "validate",
+          "start" : 51,
+          "length" : 159
+        },
+        {
+          "activity" : "generate1",
+          "start" : 52,
+          "length" : 7
+        },
+        {
+          "activity" : "generate2",
+          "start" : 55,
+          "length" : 13
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Observation-PainInCalvesExample.json",
+      "size" : 880,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 44,
+          "length" : 4
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 45,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 47,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 51,
+          "length" : 83
+        },
+        {
+          "activity" : "generate1",
+          "start" : 52,
+          "length" : 8
+        },
+        {
+          "activity" : "generate2",
+          "start" : 55,
+          "length" : 12
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Observation-PainMedicationTakenExample.json",
+      "size" : 906,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 44,
+          "length" : 5
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 45,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 47,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 51,
+          "length" : 83
+        },
+        {
+          "activity" : "generate1",
+          "start" : 52,
+          "length" : 8
+        },
+        {
+          "activity" : "generate2",
+          "start" : 55,
+          "length" : 11
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Observation-PainSurgicalWoundsExample.json",
+      "size" : 1299,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 44,
+          "length" : 4
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 47,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 51,
+          "length" : 10
+        },
+        {
+          "activity" : "generate1",
+          "start" : 52,
+          "length" : 18
+        },
+        {
+          "activity" : "generate2",
+          "start" : 55,
+          "length" : 13
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Observation-ReducedAppetiteExample.json",
+      "size" : 1264,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 44,
+          "length" : 5
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 47,
+          "length" : 81
+        },
+        {
+          "activity" : "validate",
+          "start" : 51,
+          "length" : 172
+        },
+        {
+          "activity" : "generate1",
+          "start" : 52,
+          "length" : 13
+        },
+        {
+          "activity" : "generate2",
+          "start" : 55,
+          "length" : 14
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 66,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Observation-RespiratoryRateExample.json",
+      "size" : 1771,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 44,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 47,
+          "length" : 4
+        },
+        {
+          "activity" : "validate",
+          "start" : 51,
+          "length" : 174
+        },
+        {
+          "activity" : "generate1",
+          "start" : 52,
+          "length" : 13
+        },
+        {
+          "activity" : "generate2",
+          "start" : 55,
+          "length" : 14
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Observation-ShortnessOfBreathExample.json",
+      "size" : 1213,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 44,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 47,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 51,
+          "length" : 86
+        },
+        {
+          "activity" : "generate1",
+          "start" : 52,
+          "length" : 11
+        },
+        {
+          "activity" : "generate2",
+          "start" : 55,
+          "length" : 11
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Observation-ShoulderPainExample.json",
+      "size" : 1293,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 44,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 47,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 51,
+          "length" : 9
+        },
+        {
+          "activity" : "generate1",
+          "start" : 52,
+          "length" : 10
+        },
+        {
+          "activity" : "generate2",
+          "start" : 55,
+          "length" : 13
+        }
+      ]
+    }
+  ]
+}
